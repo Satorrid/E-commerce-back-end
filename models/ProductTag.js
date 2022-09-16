@@ -14,14 +14,14 @@ ProductTag.init(
       autoIncrement: true,
     },
     product_id: {
-      typee: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: "Product",
         key: "id"
       }
     },
     tag_id: {
-      typee: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: "Tag",
         key: "id"
